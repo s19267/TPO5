@@ -1,3 +1,5 @@
+package zad1;
+
 import java.sql.*;
 import java.util.ArrayList;
 

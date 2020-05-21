@@ -13,7 +13,7 @@
 <body>
     <button type="button" onclick="location.href='index.jsp'">wstecz</button>
     <p>Podaj tytuł książki:</p>
-    <form action="/TPO5_war_exploded/findBook" method="get">
+    <form action=${pageContext.request.contextPath}/findBook method="get">
         <input type="text" name="bookName">
         <input type="submit" value="szukaj">
     </form>
